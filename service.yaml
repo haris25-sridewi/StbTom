@@ -51,16 +51,3 @@ proxies:
     path: "/howdy"
   headers:
       Host: sg3.6n6.net
-- name: Howdy_Melbi
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: d6336ed0-5621-11f0-9272-1239d0255272
-  udp: true
-  sni: sg4.6n6.net
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/howdy"
-  headers:
-      Host: sg4.6n6.net
