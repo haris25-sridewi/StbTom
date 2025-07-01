@@ -1,0 +1,66 @@
+proxies:
+- name: ID UNINET 07 09 2025
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: W79hqVWaHHS3ZB8Jrxbclg
+  udp: true
+  sni: ums2.xmd.asia
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+  headers:
+      Host: ums2.xmd.asia
+- name: Howdy_Sg1
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 6080bca0-5621-11f0-a7a8-1239d0255272
+  udp: true
+  sni: sg1.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg1.6n6.net
+- name: Howdy_Sg2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 65a0c030-5621-11f0-83bb-1239d0255272
+  udp: true
+  sni: sg2.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg2.6n6.net
+- name: Howdy_Sg3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 6ac1b760-5621-11f0-a1cd-1239d0255272
+  udp: true
+  sni: sg3.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg3.6n6.net
+- name: Howdy_Melbi
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: d6336ed0-5621-11f0-9272-1239d0255272
+  udp: true
+  sni: sg4.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg4.6n6.net
